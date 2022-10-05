@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Login.css">
+    
+</head>
+<body>
+    <div class="Main" style="background-image: url('bg-01.jpg');">
+    
+                <div class="MainContainer">
+                    <div class="Login">Login</div>
+                <form  method="post">
+                    <input name="email" class="Email" type="email" placeholder="Email or Username" required>
+                    <input name="pass" class="Pass" type="password" placeholder="Password" required>
+                    <span id="login_failed"></span>
+                    <input type="submit" class="Btn" id="Signin">
+                </form>      
+                    <div class="NoAccount">Or SignUp with</div>
+                        
+                    <div class="images">
+                        <a href="signup.html">   <input class="google" type="image" src="google.png" id="google1"  /></a>
+                        <a href="signup.html">  <input class="FB" type="image" src="fb.jpg" id="fb1"/></a>
+                    </div>
+
+                </div> 
+            
+
+   </div>
+<script type="text/javascript">
+var login_success = true;  /* set this to true if the login was a success */
+
+if(login_success == false)
+{
+    document.getElementById("login_failed").innerHTML = "Login Failed.";
+}
+  </script>
+</body>
+
+
+</html>

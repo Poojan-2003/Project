@@ -1,0 +1,143 @@
+*{
+    font-family: SourceSansPro-Bold;
+    margin: 0px 0px 0px 0px;
+}
+input::placeholder {
+    color: #4b2354;
+    font-weight: bolder;
+    font-size: 20px;
+   } 
+.Main {
+     height: 752px;
+    width: 1535px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 1
+}
+
+.Main::before {
+    content: "";
+    display: block;
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(93,84,240,.5);
+    background: -webkit-linear-gradient(left,rgba(0,168,255,0.5),rgba(185,0,255,0.5));
+    pointer-events: none
+}
+
+
+
+.MainContainer{
+    border: 2px solid white; 
+   width: 350px;
+   height: 600px;
+   display: flex;
+   font-family: SourceSansPro-Bold;
+   flex-direction: column;
+    background-color: #fff; 
+   border-radius: 20px;
+   border-color: #fff;
+   margin-left: 40px;
+  } 
+   .Login{
+   justify-content: center;
+   color: #4b2354;
+   margin-top: 55px;
+   display: flex;
+   font-size: 30px;
+   line-height: 1.2;
+   font-weight: bolder;
+   border-color: #fff;
+   font-weight: bolder;
+   font-size: 40px;
+  } 
+   .Email{
+   display: flex;
+   width: 250px;
+   height: 60px;
+   padding: 0 20px 0 23px;
+   margin-top: 40px;
+   margin-bottom: 20px;
+   margin-left: 30px;
+   border-radius: 20px;
+   border: 1px solid  #fff;
+   box-shadow: 2px 4px 20px  #adaaaa;
+ } 
+   .Pass{
+   font-size: 16px;
+   display: flex;
+   width: 250px;
+   height: 55px;
+   padding: 0 20px 0 23px;
+   margin-left: 30px;
+   border-radius: 20px;
+   box-shadow: 2px 4px 20px  #adaaaa;
+   border: 2px solid white;
+  } 
+   .Btn{
+   display: flex;
+   width: 180px;
+   height: 50px;
+   margin-left: 80px;
+   margin-top: 40px;
+   border-radius:30px ;
+   justify-content: center;
+   align-items: center;
+   font-size: 30px;
+   background-color:#bd59d4;
+   border: 2px solid white;
+   color: #fff;
+   cursor: pointer;
+  } 
+  
+   .NoAccount{
+   margin-top: 20px;
+   margin-left: 120px;
+   } 
+   .images{
+   display: flex;
+   flex-direction: row;
+   margin-left: -30px;
+  
+}
+  .google{
+   display: flex; 
+   width: 50px;
+   height: 50px;
+   margin-top: 30px;
+   margin-left: 130px;
+   border: 2px solid white;
+   border-radius: 100%;
+   box-shadow: 2px 4px 20px  #adaaaa
+  
+
+}
+  .FB{
+   display: flex;
+   width: 35px;
+   height: 35px;
+   margin-top: 26px;
+   margin-left: 30px;
+   border-radius: 100%;
+   padding:9px 9px 9px 9px ;
+   box-shadow: 2px 4px 20px  #adaaaa;
+   border:  2px solid white; 
+ }
+
+
+
+
+
+ 

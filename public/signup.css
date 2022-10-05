@@ -1,0 +1,176 @@
+*{
+   margin: 0px 0px 0px 0px;
+   font-family: 'Times New Roman', Times, serif;
+}
+
+.Main {
+  
+   height: 752px;
+  width: 1535px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  z-index: 1
+}
+
+.Main::before {
+  content: "";
+  display: block;
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(93,84,240,.5);
+  background: -webkit-linear-gradient(left,rgba(0,168,255,0.5),rgba(185,0,255,0.5));
+  pointer-events: none
+}
+
+
+
+.MainContainer1{
+    border: 2px solid white; 
+   /* width: 400px; */
+   width: 360px;
+  margin-left: -20px;
+   /* height: 600px; */
+   height: 620px;
+   display: flex;
+   font-family: SourceSansPro-Bold;
+   flex-direction: column;
+   background-color: #fff;
+   border-radius: 20px;
+   border-color: #fff;
+  }
+  .Login1{
+   /* margin-left: 135px; */
+   margin-left: 115px;
+   color: #4b2354;
+   margin-top: 50px;
+   display: flex;
+   font-size: 40px;
+   line-height: 1.2;
+   font-weight: bolder;
+   border: 2px solid white;
+   border-color: #fff;
+  }
+ .name1{
+   display: flex;
+   flex-direction: row;
+margin-top: 20px; 
+}
+ .Fname1{
+   display: flex;
+   font-size: 16px;
+ 
+   /* width: 120px; */
+   width: 100px;
+   height: 50px;
+margin-left:20px;
+margin-right:10px;
+border-radius:20px;
+margin-top: 30px;
+padding: 0 20px 0 23px;
+color: #4b2354;
+border: 2px solid white;
+box-shadow: 2px 4px 20px  #adaaaa;
+}
+ .Lname1{
+   display: flex;
+   font-size: 16px;
+   /* width: 130px; */
+   width: 120px;
+   height: 50px;
+   margin-top: 30px;
+   margin-left:5px;
+   margin-right:10px;
+   border-radius:20px; 
+   padding: 0 10px 0 23px;
+color: #4b2354;
+box-shadow: 2px 4px 20px  #adaaaa;
+border: 2px solid white;
+}
+
+.Email1{
+   display: flex;
+   /* width: 300px; */
+   width: 270px;
+  
+   height: 50px;
+   padding: 0 20px 0 23px;
+   font-size: 16px;
+   margin-top: 20px;
+   margin-bottom: 20px;
+   margin-left: 20px;
+   border-radius: 20px;
+   border-color: rgb(182, 218, 250);
+   color: #4b2354;
+   border: 2px solid white;
+   box-shadow: 2px 4px 20px  #adaaaa;
+   border-color: white;
+   
+  }
+  .Pass1{
+   font-size: 16px;
+   display: flex;
+   width: 270px;
+height: 50px;
+padding: 0 20px 0 23px;
+color: #4b2354;
+margin-left: 20px;
+border-radius: 20px;
+box-shadow: 2px 4px 20px  #adaaaa;
+border: 2px solid white;
+border-color: white;
+margin-top: 10px;
+  }
+  .Pass2{
+   font-size: 16px;
+   display: flex;
+   width: 270px;
+height: 50px;
+padding: 0 20px 0 23px;
+color: #4b2354;
+margin-left: 20px;
+border-radius: 20px;
+box-shadow: 2px 4px 20px  #adaaaa;
+border: 2px solid white;
+border-color: white;
+margin-top: 20px;
+  }
+  
+  .Signup1{
+   display: flex;
+   /* width: 180px; */
+   width: 170px;
+   height: 55px;
+   margin-left: 90px;
+   margin-top: 30px;
+   border-radius:30px ;
+   padding-top: 10px;
+justify-content: center;
+font-size: 30px;
+background-color: #bd59d4;;
+color: #fff;
+border: 2px solid white;  
+}
+.haveacc{
+   margin-top: 70px;
+   margin-left: 80px;
+}
+::placeholder{
+color: #4b2354;
+font-weight: bolder;
+}            
+.Signup1:hover{
+cursor: pointer;
+transform: scale(0.9);   
+}

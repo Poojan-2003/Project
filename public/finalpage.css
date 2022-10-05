@@ -1,0 +1,81 @@
+*{
+    /* font-family:Georgia, 'Times New Roman', Times, serif ; */
+    margin: 0px 0px 0px 0px ;
+}
+.body{
+    margin-top:-100%
+   }
+
+.Container{
+    height: 752px;
+    width: 1535px;
+    background-color: #727272;
+}
+.navbar{
+    margin-top: -8px;
+    width: 1916px;
+    height:125px;
+    border: 1px solid black;
+    background-color:#333333;
+    display: flex;
+}
+#Logo{
+    margin-left: 20px;
+    height: 120px;
+    width: 180px;
+    margin-top: 5px;
+} 
+.Search{
+    width: 250px;
+    height: 50px;
+margin-left: 580px;
+margin-top: 40px;
+background-color:#727272 ;
+border-radius: 20px;
+border: 1px solid white;
+}
+*:focus {
+    outline: none;
+}
+.Search:enabled{
+    border: 0px;
+}
+::placeholder{
+    color: aliceblue;
+    font-size:15px;
+    padding-left: 10px;
+    padding-bottom: 100px;
+    font-weight: bold;
+}
+.aboutus{
+    margin-top: 40px;
+    margin-left: 700px;
+color: aliceblue;
+font-size: 40px;
+
+}
+.MainInfo{
+    display: flex;
+}
+.info{
+    margin-top: 20px;
+    padding-left: 20px;
+    font-size: larger;
+    padding-top: 20px;
+    padding-bottom: 40px;
+
+}
+#Srno{margin-left:20px;font-size: 40px;}
+#name{padding-left: 150px;font-size: 40px;}
+#id{ padding-left: 300px;font-size: 40px;}
+#topic{ padding-left: 270px;font-size: 40px;}
+#know{ padding-left: 300px;font-size: 40px;}
+.info1{
+    padding-top: 25px;
+    padding-left: 50px;
+    font-size: 50px;
+}
+.btn1{
+    width: 100px;
+    height:50px;
+}

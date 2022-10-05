@@ -1,0 +1,111 @@
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Information</title>
+</head>
+<style>
+    *{
+        margin: 0px 0px;
+    }
+    .Container{
+width: 1530px;
+height: 748px;
+border: 1px solid black;
+    }
+    .Navbar{
+        display: flex;
+        border: 1px solid black;
+background-color: #333333;
+height: 110px;
+width: 1530px;
+    }
+
+#search{
+    margin-left:470px;
+    width: 250px;
+    height: 50px;
+    margin-top:27px;
+    background-color:#727272 ;
+    border-radius: 20px;
+    border: 1px solid white;
+}
+#about_us{
+    margin-top: 27px;
+    color: aliceblue;
+    font-size: 40px;
+    margin-left: 450px;
+
+}
+::placeholder{
+    color: aliceblue;
+    font-size:20px;
+    padding-left: 20px;
+    padding-top: 90px;
+    font-weight: bold;
+}
+ td,th {
+  border: 1px solid black;
+  padding: 5px;
+}   
+table{
+    width: 100%;
+}
+
+ #sr,#id,#name,#topic,#know{
+    font-size: 25px;
+ }
+
+
+#btn{
+    width: 90px;
+    height: 35px;
+    border-radius: 10px;
+}
+th{
+    font-size: 20px;
+}
+
+</style>
+<body>
+    <div class="Container">
+            <div class="Navbar">
+                   <img src="Screenshot 2022-10-05 092047.png">
+                    <input type="text" id="search" placeholder="Search">
+                    <div id="about_us" href="about_us.html">About Us</div>
+            </div>
+<div class="body2">
+        <table>
+            <tr>
+                <th id="sr">Sr No</th>
+                <th id="id">ID NO</th>
+                <th id="name">Name</th>
+                <th id="area">Project Development</th>
+                <th id="topic">Topics</th>
+                <th id="know">Know More</th>
+              </tr>
+<tr>
+                 <% var i =0 %>
+                 <% employeelist.forEach(datadetail =>{ %>
+               <tr>
+                <% ++i %>
+                <th><%= i %></th>
+                <th><%= datadetail.id %></th>
+                <th><%= datadetail.Name %></th>
+                <th><%= datadetail.devlopment %></th>
+                <th><%= datadetail.topics%></th>
+                
+              <th> <button id="btn"><a href="completeinfo.ejs">Know More</button></th>
+            </tr>
+                <%})%>
+</tr>
+
+        </table>
+    
+    </div>
+
+</div>
+</body>
+</html>
